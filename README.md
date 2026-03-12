@@ -13,19 +13,6 @@ A SwiftUI app for iOS that lets you manage GPS coordinates and export GPX files 
 
 ---
 
-## Installation
-
-1. Create a new Xcode project using the **App** template
-2. Set the minimum deployment target to **iOS 18**
-3. Delete the default `ContentView.swift` that Xcode generates
-4. Drag all `.swift` files from this folder into the project navigator — tick **Copy items if needed**
-5. In `Assets.xcassets`, replace the `AppIcon` slot with `GPXManager_AppIcon_1024.png`
-6. Build and run on your device (`⌘R`)
-
-> On first launch, iOS may ask you to trust the developer profile. Go to **Settings → General → VPN & Device Management** and trust your Apple ID.
-
----
-
 ## Features
 
 - Add coordinates manually by name and lat/lng, or search by address using MapKit
