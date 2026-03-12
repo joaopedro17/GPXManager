@@ -1,0 +1,46 @@
+# Xcode build output
+build/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+xcuserdata/
+
+# Xcode workspace settings (safe to ignore for solo projects)
+*.xcworkspace/xcshareddata/
+*.xcworkspace/xcuserdata/
+
+# Exceptions — keep shared scheme so the project builds for others
+!*.xcworkspace/xcshareddata/xcschemes/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods (not used here, but just in case)
+Pods/
+Podfile.lock
+
+# macOS
+.DS_Store
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archives and exports
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Fastlane (if ever add)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Sensitive files
+*.p12
+*.mobileprovision
